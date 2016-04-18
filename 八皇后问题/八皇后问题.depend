@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453377227 source:/home/dechao/ACM练习/八皇后问题/main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+
