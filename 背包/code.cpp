@@ -28,7 +28,7 @@ int main()
         {
             if(j>=a[i])
             {
-                dp[j]=dp[j]>(dp[j-a[i]]+a[i])?dp[j]:(dp[j-a[i]]+a[i]);
+                dp[j]=max(dp[j],(dp[j-a[i]]+a[i]));
             }
         }
     }
