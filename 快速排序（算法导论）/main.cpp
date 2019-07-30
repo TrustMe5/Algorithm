@@ -4,7 +4,7 @@ using namespace std;
 int a[100010];
 int parti(int a[],int low,int high)
 {
-    int i=-1,j=0;
+    int i=low-1,j=low;
     while(j<high)
     {
         if(a[j]>a[high])        //和a[high]比较，大于a[high]的数放在右边，小于a[high]的放在左边
